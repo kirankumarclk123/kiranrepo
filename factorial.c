@@ -14,6 +14,6 @@ void factorial1()
         {
             factorial *= i;              // factorial = factorial*i;
         }
-        printf("Factorial of %d = %llu\n", n, factorial \n);
+        printf("Factorial of %d = %llu", n, factorial);
     }
 }
