@@ -2,7 +2,7 @@
 void polin()
 {
     int n, reversedInteger = 0, remainder, originalInteger;
-    printf("Enter an integer: ");
+    printf("Enter an integer:\n ");
     scanf("%d", &n);
     originalInteger = n;
     // reversed integer is stored in variable 
@@ -14,9 +14,9 @@ void polin()
     }
     // palindrome if orignalInteger and reversedInteger are equal
     if (originalInteger == reversedInteger)
-        printf("%d is a palindrome.", originalInteger);
+        printf("%d is a palindrome.\n", originalInteger);
     else
-        printf("%d is not a palindrome.", originalInteger);
+        printf("%d is not a palindrome.\n", originalInteger);
     
  
 }
