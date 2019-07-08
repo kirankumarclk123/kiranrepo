@@ -7,13 +7,13 @@ void factorial1()
     scanf("%d",&n);
     // show error if the user enters a negative integer
     if (n < 0)
-        printf("Error! Factorial of a negative number doesn't exist.");
+        printf("Error! Factorial of a negative number doesn't exist.\n");
     else
     {
         for(i=1; i<=n; ++i)
         {
             factorial *= i;              // factorial = factorial*i;
         }
-        printf("Factorial of %d = %llu\n", n\n, factorial);
+        printf("Factorial of %d = %llu\n", n, factorial \n);
     }
 }
